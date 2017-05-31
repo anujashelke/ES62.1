@@ -1,0 +1,36 @@
+<<!DOCTYPE html>
+
+<head>
+
+<title> ES6 2 </title>
+
+</head>
+
+<body>
+
+<script>
+
+
+var myset= new Set(); 
+myset.add(1);
+myset.add(2);
+myset.add(3);
+console.log(myset);
+
+var getarraylength = () => {
+
+	console.log(myset.size);
+
+}
+getarraylength();
+
+myset.forEach(function(value){
+
+	console.log(value*2);
+})
+
+</script>
+
+</body>
+
+</html>
